@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ashley Liu">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Ashley Liu's Professional Website">
+    <title>Ashley Liu</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="../static/script.js"></script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Ashley Liu</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src="../static/photo_of_me.png" alt="Ashley Liu profile image" width="350px">
+            <div class="classA">
+                <p id="intro">
+                <span id = "shortIntro">My name is Ashley Liu, and I am a freshman majoring in Information Systems with an intended additional major in Artificial Intelligence. I come from Dallas, and my parents are immigrants from China. Having grown up helping in my mom’s medical practice, I have witnessed the power of technology to enhance both business operations and quality of patient care. This inspired me to take after my dad and delve into the intersection of business and computer science. I hope to use my curricular knowledge and real-world experiences to contribute to transformative technology that optimizes business processes and enhances experiences for customers, with an interest in driving progress in the healthcare domain.</span>
+                <span id = "readMore">read more...</span>
+                <span id = "longIntro">Whether this is through advancing medical technologies or developing integrated systems, I strive to positively impact people’s lives. On a personal level, I seek to surround myself with motivated individuals of diverse backgrounds, where we can enrich each other’s perspectives, push each other to become our best selves, and collaborate to achieve our dreams, while building strong relationships in the process. Outside of work, I love spending time on the golf course, whether it’s casually with friends or representing Carnegie Mellon. I also enjoy reading psychology books, spending time with family, and hiking in national and state parks.</span>
+                <span id = "readLess">read less...</span>
+                </p>
+            </div>
+    </div>
+    <footer>
+        <p id="copyYear">Ashley Liu &copy;</p>
+    </footer>
+</body>
+</html>
